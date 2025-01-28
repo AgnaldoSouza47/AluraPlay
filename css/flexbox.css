@@ -8,28 +8,27 @@
 }
 
 /*MENU*/
+
 .menu__container {
     position: fixed;
     bottom: 0%;
-    right: 74px;
-    width: 100%;
-
+    right: 85px;
+    width: 650px;
 }
-
 .menu__lista {
     display: flex;
+    font-size: 12px;
     justify-content: space-around;
-
+    height: auto;
+}
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .menu__lista li {
     align-self: center;
-}
-
-.menu__itens {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
 }
 
 .menu__lista:nth-child(2),
